@@ -1,0 +1,6 @@
+<div class="row">
+  <div class="col-xs-6">
+    <h3>Total Visits by Country</h3>
+    <%= pie_chart @visits.group(:country).count %>
+  </div>
+</div>
