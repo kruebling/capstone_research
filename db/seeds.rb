@@ -29,3 +29,5 @@ Visit.create  country: 'South Korea', visited_at: DateTime.now - 2.days, load_ti
 Visit.create  country: 'South Korea', visited_at: DateTime.now - 3.days, load_time: 5.0
 Visit.create  country: 'South Korea', visited_at: DateTime.now - 3.days, load_time: 4.0
 Visit.create  country: 'South Korea', visited_at: DateTime.now - 3.days, load_time: 5.0
+Visit.create  country: 'Mexico', visited_at: DateTime.now - 3.days, load_time: 5.0
+Visit.create  country: 'Mongolia', visited_at: DateTime.now - 3.days, load_time: 5.0
