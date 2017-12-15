@@ -12,3 +12,6 @@
   11. Deploy Ecommerce project do Heroku using AWS hosting service for images. This proved to be more difficult than I had originally thought and I would really like to figure this out.
   12. Reboot Spotify app to allow users the ability to log in to their profile. Move API calls to a rails back end to better handle this integration.
   13. Redo my Dad's website for his band, integrate google calendar and stripe so customers can purchase his merch and see upcoming shows.
+  14. Start Udemy class on GoLang to assist with internship related responsibilities and expand my coding horizon.
+  15. (14 expanded) Review Epicodus curriculum regarding Ember to be more hands on with my internships website.
+  16. 
