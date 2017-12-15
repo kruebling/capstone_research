@@ -10,21 +10,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171215210300) do
+ActiveRecord::Schema.define(version: 20171215231437) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "weathers", id: false, force: :cascade do |t|
-    t.datetime "date_str"
-    t.decimal "degrees_from_mean"
-    t.string "id"
-    t.decimal "longitude"
-    t.decimal "latitude"
-    t.decimal "max_temp"
-    t.decimal "min_temp"
-    t.string "station_name"
-    t.string "type"
+  create_table "meds", force: :cascade do |t|
+    t.string "year"
+    t.string "brand_name"
+    t.string "generic_name"
+    t.string "coverage_type"
+    t.decimal "total_spending"
+    t.decimal "beneficiary_count"
+    t.decimal "unit_count"
+    t.decimal "beneficiary_cost_share"
+    t.decimal "total_annual_spending_per_user"
+    t.decimal "average_cost_per_unit"
+    t.decimal "average_annual_beneficiary_cost_share"
+    t.decimal "claim_count"
+    t.string "beneficiary_count_lis"
+    t.string "beneficiary_count_no_lis"
+    t.decimal "beneficiary_cost_share_lis"
+    t.decimal "beneficiary_cost_share_no_lis"
+    t.decimal "average_beneficiary_cost_share_lis"
+    t.decimal "average_beneficiary_cost_share_no_lis"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
