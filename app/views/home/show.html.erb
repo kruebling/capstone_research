@@ -1,25 +1,16 @@
 
 
-<div class="row">
 
   <!-- Pie Chart -->
   <div class="col-xs-6">
-    <h3>Total Visits by Country</h3>
-    <%= pie_chart @meds.group(:brand_name).sum(:unit_count).limit(10) %>
+    <h3>Top 10 Spenders Pie</h3>
+    <%= pie_chart @meds.limit(10).group(:brand_name).sum(:unit_count), width: "800px", heigth: "800px" %>
   </div>
 
-</div>
 
 
-<div class="row">
   <!-- Column Chart -->
   <div class="col-xs-6">
-    <h3>Total Visits Per Country</h3>
-    <%= column_chart @meds.group(:brand_name).count %>
+    <h3>Top 10 Spenders Bar</h3>
+    <%= column_chart @meds.limit(10).group(:brand_name).sum(:unit_count) %>
   </div>
-  <!-- Bar Chart -->
-  <div class="col-xs-6">
-    <h3>Total Visits Per Country</h3>
-    <%= bar_chart @meds.group(:brand_name).count %>
-  </div>
-</div>
