@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def show
-    @weathers = Weather.all
+    @meds = Med.all
   end
 end
