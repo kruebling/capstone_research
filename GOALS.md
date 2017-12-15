@@ -19,3 +19,16 @@
   18. Revisit craigslist rent tracking app and tweak it to accept variables other than housing market data. Integrate this project with my capstone to visualize the data in a more user friendly away instead of a table.
   19. Attempt to create my own gem to use in rails applications.
   20. Finish Slackbot app written in Go that will allow users to call the bot and set notifications through their groups slack channel. Bot currently just replies to users and I would to see this have some real functionality
+
+# Tasks
+  1. Make an effort to document and update README's for projects in github.
+  2. Reformat Resume to help it stand out more.
+  3. Match Coverletter style to new Resume Style.
+
+
+# Dataset Research for capstone
+  1. Enigma Weather Data (Currently taking far to long to import into active record, need to host from their site.)
+  2. Enigma State Government Spending Data (Worked yesterday, lack of spending over time variable makes this a difficult dataset to visualize.)
+  3. Enigma Census Data (Also got working yesterday, was able to visualize 5 tiers of income brackets for the 2016 census)
+  4. vin.li CarBot Driving Data (worked beautifully, need a script to convert json output to csv format but integrated really well into scatter plot of RPM vs MPH of a single trip in Dallas.)
+  5. gem 'rails-data-explorer' offers more functionality than chartkick
