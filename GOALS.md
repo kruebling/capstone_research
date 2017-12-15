@@ -15,4 +15,7 @@
   14. Start Udemy class on GoLang to assist with internship related responsibilities and expand my coding horizon.
   15. (14 expanded) Review Epicodus curriculum regarding Ember to be more hands on with my internships website.
   16. Stay in touch with current classmates to keep up with pair coding skills. Make a strong effort to continue to have a presence and be involved with their coding careers.
-  17. Practice writing better, cleaner specs for rails apps utilizing factory bot and shoulda-matchers. Specs are a powerful tool and essential to my learning as a junior developer. 
+  17. Practice writing better, cleaner specs for rails apps utilizing factory bot and shoulda-matchers. Specs are a powerful tool and essential to my learning as a junior developer.
+  18. Revisit craigslist rent tracking app and tweak it to accept variables other than housing market data. Integrate this project with my capstone to visualize the data in a more user friendly away instead of a table.
+  19. Attempt to create my own gem to use in rails applications.
+  20. Finish Slackbot app written in Go that will allow users to call the bot and set notifications through their groups slack channel. Bot currently just replies to users and I would to see this have some real functionality
