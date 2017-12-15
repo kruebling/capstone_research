@@ -1,6 +1,7 @@
+require 'csv'
 
-weathers = []
-CSV.foreach('../weather.csv', headers: true) do |row|
-  weathers << Weather.new(row.to_h)
+csv_text = File.read('../weather.csv')
+csv = CSV.parse(csv_text, :headers => true)
+csv.each do |row|
+  Weather.create!(row.to_hash)
 end
-Weather.import(weathers)
