@@ -1,16 +1,38 @@
 
 
 
-  <!-- Pie Chart -->
-  <div class="col-xs-6">
-    <h3>Top 10 Spenders Pie</h3>
-    <%= pie_chart @meds.limit(10).group(:brand_name).sum(:unit_count), width: "800px", heigth: "800px" %>
-  </div>
+<!-- Pie Chart -->
+<h3>Top 10 Spenders Pie</h3>
+<%= pie_chart @meds.limit(10).group(:brand_name).sum(:unit_count), width: "800px", heigth: "800px" %>
 
+<!-- Column Chart -->
+<h3>Top 10 Spenders Bar</h3>
+<%= column_chart @meds.limit(10).group(:brand_name).sum(:unit_count) %>
 
+<!-- Line Chart -->
+<h3>Total Annual Spending per User</h3>
+<%= line_chart @meds.group(:year).sum(:total_annual_spending_per_user) %>
 
-  <!-- Column Chart -->
-  <div class="col-xs-6">
-    <h3>Top 10 Spenders Bar</h3>
-    <%= column_chart @meds.limit(10).group(:brand_name).sum(:unit_count) %>
-  </div>
+<!-- Line Chart, Multiple Series -->
+<%= line_chart @meds.limit(3).map { |x|
+    {brand_name: x.brand_name, data: x.total_spending }
+} %>
+
+t.string "year"
+t.string "brand_name"
+t.string "generic_name"
+t.string "coverage_type"
+t.decimal "total_spending"
+t.decimal "beneficiary_count"
+t.decimal "unit_count"
+t.decimal "beneficiary_cost_share"
+t.decimal "total_annual_spending_per_user"
+t.decimal "average_cost_per_unit"
+t.decimal "average_annual_beneficiary_cost_share"
+t.decimal "claim_count"
+t.string "beneficiary_count_lis"
+t.string "beneficiary_count_no_lis"
+t.decimal "beneficiary_cost_share_lis"
+t.decimal "beneficiary_cost_share_no_lis"
+t.decimal "average_beneficiary_cost_share_lis"
+t.decimal "average_beneficiary_cost_share_no_lis"
