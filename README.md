@@ -1,24 +1,24 @@
 # List of Upcoming Goals :octocat:
-  1. Finish my class on Machine Learning(Python) _High_
-  2. Build a new game in Unity and deploy it to mobile(C#) _High_
-  3. Finish reading 'Learning Ruby the Hard Way' _Low_
-  4. Finish reading 'The Essential Rubyist' _High_
-  5. Finish building portfolio site in Rails, incorporate red carpet gem for blog style posts. Host blog on heroku and post current projects and discoveries. _High_
-  6. Finishing connecting my angular front end app to my e-commerce back end app. Allow users complete cart functionality. _Low_
-  7. Continue to attend mentorship Saturday meetings as well as monthly Ruby Brigade. _Medium_
-  8. Improve my community presence by contributing to open source projects on github as well as commenting on Stack Overflow _High_
-  9. Reach out to community members weekly via LinkedIn messenger and post my own articles on my profile. _Medium_
-  10. Continue to practice whiteboarding with people that have experience interviewing candidates. Practice focusing more on talking through the problems and less on worrying about things that stump me during tough interview questions. _Low_
-  11. Deploy Ecommerce project do Heroku using AWS hosting service for images. This proved to be more difficult than I had originally thought and I would really like to figure this out. _High_
-  12. Reboot Spotify app to allow users the ability to log in to their profile. Move API calls to a rails back end to better handle this integration. _High_
-  13. Redo my Dad's website for his band, integrate google calendar and stripe so customers can purchase his merch and see upcoming shows. _High_
-  14. Start Udemy class on GoLang to assist with internship related responsibilities and expand my coding horizon. _Medium_
-  15. (14 expanded) Review Epicodus curriculum regarding Ember to be more hands on with my internships website. _Low_
-  16. Stay in touch with current classmates to keep up with pair coding skills. Make a strong effort to continue to have a presence and be involved with their coding careers. _Medium_
-  17. Practice writing better, cleaner specs for rails apps utilizing factory bot and shoulda-matchers. Specs are a powerful tool and essential to my learning as a junior developer. _Medium_
-  18. Revisit craigslist rent tracking app and tweak it to accept variables other than housing market data. Integrate this project with my capstone to visualize the data in a more user friendly away instead of a table. _High_
-  19. Attempt to create my own gem to use in rails applications. _Medium_
-  20. Finish Slackbot app written in Go that will allow users to call the bot and set notifications through their groups slack channel. Bot currently just replies to users and I would to see this have some real functionality _Low_
+  1. (10) Finish my class on Machine Learning(Python) _High_
+  2. (9) Build a new game in Unity and deploy it to mobile(C#) _High_
+  3. (4) Finish reading 'Learning Ruby the Hard Way' _Low_
+  4. (8) Finish reading 'The Essential Rubyist' _High_
+  5. (8) Finish building portfolio site in Rails, incorporate red carpet gem for blog style posts. Host blog on heroku and post current projects and discoveries. _High_
+  6. (4) Finishing connecting my angular front end app to my e-commerce back end app. Allow users complete cart functionality. _Low_
+  7. (5) Continue to attend mentorship Saturday meetings as well as monthly Ruby Brigade. _Medium_
+  8. (9) Improve my community presence by contributing to open source projects on github as well as commenting on Stack Overflow _High_
+  9. (6) Reach out to community members weekly via LinkedIn messenger and post my own articles on my profile. _Medium_
+  10. (4) Continue to practice whiteboarding with people that have experience interviewing candidates. Practice focusing more on talking through the problems and less on worrying about things that stump me during tough interview questions. _Low_
+  11. (7) Deploy Ecommerce project do Heroku using AWS hosting service for images. This proved to be more difficult than I had originally thought and I would really like to figure this out. _High_
+  12. (8) Reboot Spotify app to allow users the ability to log in to their profile. Move API calls to a rails back end to better handle this integration. _High_
+  13. (9) Redo my Dad's website for his band, integrate google calendar and stripe so customers can purchase his merch and see upcoming shows. _High_
+  14. (7) Start Udemy class on GoLang to assist with internship related responsibilities and expand my coding horizon. _Medium_
+  15. (5) Review Epicodus curriculum regarding Ember to be more hands on with my internships website. _Low_
+  16. (6) Stay in touch with current classmates to keep up with pair coding skills. Make a strong effort to continue to have a presence and be involved with their coding careers. _Medium_
+  17. (6) Practice writing better, cleaner specs for rails apps utilizing factory bot and shoulda-matchers. Specs are a powerful tool and essential to my learning as a junior developer. _Medium_
+  18. (7) Revisit craigslist rent tracking app and tweak it to accept variables other than housing market data. Integrate this project with my capstone to visualize the data in a more user friendly away instead of a table. _High_
+  19. (7) Attempt to create my own gem to use in rails applications. _Medium_
+  20. (3) Finish Slackbot app written in Go that will allow users to call the bot and set notifications through their groups slack channel. Bot currently just replies to users and I would to see this have some real functionality _Low_
 
 # Tasks
   1. Make an effort to document and update README's for projects in github.
