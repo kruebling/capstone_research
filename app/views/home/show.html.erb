@@ -18,6 +18,9 @@
     {brand_name: x.brand_name, data: x.total_spending }
 } %>
 
+<!-- Scatter -->
+<%= scatter_chart @meds.pluck(:brand_name, :total_spending) %>
+
 t.string "year"
 t.string "brand_name"
 t.string "generic_name"
